@@ -1,6 +1,9 @@
 @import "ui-variables";
 @import "ui-mixins";
 
+.editor {
+}
+
 .editor.mini {
   color: @text-color-highlight;
   background-color: @input-background-color;
@@ -9,7 +12,6 @@
     inset 0 1px 1px rgba(0, 0, 0, .075);
   border-radius: @component-border-radius;
   padding-left: @component-padding/2;
-
   .cursor { border-color: #fff; }
   .selection .region { background-color: lighten(@input-background-color, 10%); }
 }
